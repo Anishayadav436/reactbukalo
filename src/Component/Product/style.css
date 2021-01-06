@@ -1,0 +1,48 @@
+.desktop_product_data{
+    text-align: left;
+    font-family: "Open Sans",Arial,sans-serif,"Montserrat";
+    font-size: smaller;
+    font-weight: lighter;
+    line-height: 22px;
+}
+.product_paraone{
+    font-size: small;
+    font-weight: lighter;
+    font-family: "Open Sans",Arial,sans-serif,"Montserrat";
+
+    line-height: 22px;
+}
+.prodct_datatwo{
+    text-align: left;
+}
+.prodct_datathree{
+    text-align: left;
+}
+.product_paratwo{
+    font-size: small;
+    font-weight: lighter;
+    font-family: "Open Sans",Arial,sans-serif,"Montserrat";
+
+    line-height: 22px;
+}
+.product_parathree{
+    font-size: small;
+    font-weight: lighter;
+    font-family: "Open Sans",Arial,sans-serif,"Montserrat";
+
+    line-height: 22px;
+}
+
+.desktop_product_data {display: block;}
+.mobile_product_data {display: none;}
+
+@media screen and (max-width: 768px) {
+
+.desktop_product_data {display: none;}
+.mobile_product_data {display: block;}
+
+}
+.mobile_product_data{
+    text-align: left;
+    font-family: "Open Sans",Arial,sans-serif;
+}

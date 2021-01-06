@@ -1,0 +1,32 @@
+import React, {useEffect} from 'react';
+import { Widget, addResponseMessage, addLinkSnippet, addUserMessage } from 'react-chat-widget';
+ 
+import 'react-chat-widget/lib/styles.css';
+ 
+import logo from '../../Images/bukalologo.png';
+ 
+function Qchat() {
+  useEffect(() => {
+    addResponseMessage('Welcome to Bukalo!!');
+  }, []);
+ 
+  const handleNewUserMessage = (newMessage) => {
+    console.log(`New message incoming! ${newMessage}`);
+    // Now send the message throught the backend API
+  };
+ 
+  
+    return (
+      <div className="App">
+        <Widget
+          handleNewUserMessage={handleNewUserMessage}
+          profileAvatar={logo}
+          title="Bukalo Support Team"
+          subtitle="Hi There!!!!"
+        />
+      </div>
+    );
+  } 
+
+ 
+export default Qchat;

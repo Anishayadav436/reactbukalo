@@ -1,0 +1,36 @@
+.desktop_Why_bukalo{
+    color: white;
+    background-image: url('../../Images/bgimg.jpg');
+    background-size: 100%;
+    background-size: 100%;
+    background-size: cover;
+ background-repeat: no-repeat;
+    
+}
+.mobile_Why_bukalo{
+    color: black;
+    /* background-image: url('../../Images/copy.jpg'); */
+  
+}
+.bukalo_heading{
+    text-transform:uppercase;
+}
+.bukalo_subheading{
+    font-size: 14.7px;
+    padding-left: 13%;
+    padding-right: 13%;
+    
+}
+.flexes{
+    color: black;
+    text-align: center;
+}
+/* .desktop_Why_bukalo {display: block;}
+.mobile_Why_bukalo{display: none;}
+
+@media screen and (max-width: 500px) {
+
+.desktop_Why_bukalo {display: none;}
+.mobile_Why_bukalo {display: block;}
+
+} */

@@ -1,0 +1,8 @@
+.Navbar{
+    background-color: url("../../Images/headerbg.png");
+}
+.nav-item{    
+        display: inline-block;
+        padding-right: 22px;
+        font-size: 14px;
+    }

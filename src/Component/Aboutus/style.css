@@ -1,0 +1,22 @@
+.about_us{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: Merriweather,Georgia,Times New Roman,serif;
+}
+.about_para{
+line-height: 1.5rem;
+font-size: 14.7px;
+}
+.text{
+    /* top,right,bottom,left */
+    padding-left: 19%;
+    padding-right: 19%;
+}
+.lining {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1.5px solid ;
+    color:#0c71c3;
+    width:12%;
+}

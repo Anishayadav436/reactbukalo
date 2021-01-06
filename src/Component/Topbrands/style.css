@@ -1,0 +1,15 @@
+.topbrands{
+    color: white;
+    background-color: #333333;
+    padding-top: 6%;
+}
+.brands_heading{
+    font:40px;
+}
+.brands_para{
+    font-size: 15px;
+    font-family: "Open Sans",Arial,sans-serif;
+    word-spacing: 0.5px;
+    font-weight: 500;
+    padding-top: 1%;
+}
